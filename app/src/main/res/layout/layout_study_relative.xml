@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="허민재"/>
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_alignRight="@id/tv_name"
+        android:textSize="30sp"
+        android:text="24"/>
+
+<!--    id의 좌측에 배치android:layout_toLeftOf="@+id/tv_name"-->
+<!--    id의 우측에 배치android:layout_toRightOf="@+id/tv_name"-->
+<!--    부모 레이아웃의 정 중앙에 배치 android:layout_centerInParent="true"-->
+<!--    부모 레이아웃의 좌측에 배치 (Start와 Left는 같음) android:layout_alignParentStart="true"-->
+<!--    부모 레이아웃의 좌측에 배치 (End와 Right는 같음) android:layout_alignParentEnd="true"-->
+<!--    부모 레이아웃의 하단에 배치 android:layout_alignParentBottom="true"-->
+<!--    부모 레이아웃의 상단에 배치 android:layout_alignParentTop="true"-->
+<!--    id의 위에 배치 android:layout_above="@id/tv_name"-->
+<!--    id의 밑에 배치 android:layout_below="@id/tv_name"-->
+<!--    id의 끝 선에 맞춰서 배치 (내부) android:layout_alignLeft="@id/tv_name"-->
+<!--    id의 끝 선에 맞춰서 배치 (내부) android:layout_alignRight="@id/tv_name"-->
+
+
+
+</RelativeLayout>
