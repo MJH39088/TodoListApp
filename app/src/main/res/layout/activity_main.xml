@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
+    <!-- Gravity (정렬)  layout_gravity는 부모를 기준으로 정렬, 그냥 gravity는 각 View만 적용됨. wrap_content로 감싸면 적용x -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        android:layout_gravity="end"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
