@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
     <!-- Gravity (정렬)  layout_gravity는 부모를 기준으로 정렬, 그냥 gravity는 각 View만 적용됨. wrap_content로 감싸면 적용x -->
     <TextView
+        android:id="@+id/tv_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -36,6 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:id="@+id/tv_Test"
             android:text="Hello World!" />
 
         <TextView
