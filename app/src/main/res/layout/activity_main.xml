@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
     <!-- Gravity (정렬)  layout_gravity는 부모를 기준으로 정렬, 그냥 gravity는 각 View만 적용됨. wrap_content로 감싸면 적용x -->
     <TextView
         android:id="@+id/tv_name"
